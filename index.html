@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header with logo and mobile menu button -->
+  <header class="site-header">
+    <div class="brand">My Portfolio</div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero section for welcome message -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p>Hi, I'm a beginner frontend developer.</p>
+      <h1>Welcome to my responsive portfolio website.</h1>
+      <p>Built with pure HTML, CSS, and simple JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- About section with a simple description -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I enjoy learning web development and creating clean, responsive websites.
+        This portfolio uses semantic HTML, Flexbox, and CSS Grid.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects section with cards using CSS Grid -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>A simple website layout made for practice.</p>
+        </article>
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>A responsive grid of cards that works on mobile and desktop.</p>
+        </article>
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>A beginner-friendly UI design made with CSS only.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section with a short message -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out if you want to build something together.</p>
+    </div>
+  </section>
+
+  <!-- Footer with copyright text -->
+  <footer class="site-footer">
+    <p>© 2026 My Portfolio. Made with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
